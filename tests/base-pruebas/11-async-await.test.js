@@ -4,8 +4,9 @@ describe('pruebas en 11 async', () => {
     test('should to return url of img', async () => { 
         
         const url = await getImagen();
-        console.log(url);
+
         //expect(typeof url).toBe('string');
+        expect(url).toBe('No se encontró');
 
      })
 });
